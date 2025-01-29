@@ -7,18 +7,47 @@ Openloop Ai项目
 
 插件下载：https://chromewebstore.google.com/detail/openloopso-sentry-node-ex/effapmdildnpkiaeghlkicpfflpiambm
 
-2、批量注册账号
 
-3、多ip多账号撸积分！
-
-## 教程
-proxy.txt和accounts.txt的行数是要一样。
-
-accounts说明
-```text
-邮件||||密码||||邀请码
-email||||passwd||||rfcode
-111@gmail.com||||123456||||ol605c9ed0
+## 2.0、脚本使用教程
+这个是针对2.0的教程。2.0以下请不要参考！
+### 2.1、config配置目录
+1、``accounts.txt``用户存储
+写法：
+```txt
+email:passwd
 ```
-proxy说明：目前仅支持http代理，没写socks5转http的代码。所以各位骚年们跑的时候注意
+用于：用户注册和登录抓取token使用
+
+2、``invite_code.txt``邀请码
+请放置一个邀请码，多个邀请码无法全部读取！
+
+3、``proxy.txt``代理
+和tokens.txt、accounts.txt行数对于，多处不会使用，少于会重复使用！注意了骚年们！  
+
+4、``tokens.txt``token存储目录
+可以由脚本抓取或者手工抓取！
+
+## 3.0、运行脚本
+1、Mac运行脚本
+```bash
+cd Openlopp_Mac
+chmod +x Openloop_Mac
+./Openloop_Mac
+```
+
+2、Linux运行脚本
+```bash
+cd Openlopp_Linux
+chmod +x Openloop_Linux
+./Openloop_Linux
+```
+
+3、Windows运行脚本
+
+3.1 直接双击运行Openloop.exe
+
+3.2 日志形式运行,cmd到openloop目录下，然后``.\Openloop.exe``回车运行！
+
+
+
 
